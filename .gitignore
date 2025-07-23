@@ -1,0 +1,90 @@
+
+# --- Python bytecode and caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+.pipenv/
+.python-version
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- VS Code settings (optional) ---
+.vscode/
+
+# --- PyCharm settings (optional) ---
+.idea/
+
+# --- macOS metadata ---
+.DS_Store
+
+# --- System Files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Logs and Reports ---
+*.log
+*.out
+*.err
+
+# --- Python packaging ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Pytest ---
+.cache/
+.tox/
+coverage.*
+htmlcov/
+*.cover
+*.py,cover
+nosetests.xml
+coverage.xml
+*.lcov
+
+# --- dotenv/env files ---
+.env
+.env.*
+
+# --- Installer logs ---
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- MyPy and Pylint ---
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# --- Test Results ---
+test-results/
+
+# --- Lock files ---
+poetry.lock
+Pipfile.lock
+uv.lock
+
+# --- Temporary files ---
+*.tmp
+*.bak
+*.swp
+*~
+
+# --- PDFs or image scans (if any) ---
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+
+# --- Optional: Ignore hello.py if it's just a temp script ---
+hello.py
